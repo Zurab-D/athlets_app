@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <script src="js/lib/es5-shim.min.js"></script> -->
+    <!-- <script src="js/lib/es6-shim.min.js"></script> -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/lib/jquery-3.2.1.min.js"></script>
+    <script src="js/lib/handlebars.min.js"></script>
+</head>
+
+<body>
+    <section id="app">
+        <select class="countries"></select>
+        <script class="countries-template" type="text/x-handlebars-template">
+            {{#list nav}}
+                <option value="{{value}}">{{title}}</option>
+            {{/list}}
+        </script>
+
+
+        <div class="medals">
+            <span class="btn btn-s btn-warning" data-medal-type="gold">gold</span>
+            <span class="btn btn-s btn-default" data-medal-type="silver">silver</span>
+            <span class="btn btn-s btn-danger"  data-medal-type="bronze">bronze</span>
+            <span class="btn btn-s btn-info active">all</span>
+        </div>
+
+
+        <div class="pages">
+            <button class="btn btn--prev">prev</button>
+            <span class="pages__info">
+                <span class="item-no"></span> of <span class="items-count"></span>
+            </span>
+            <button class="btn btn--next">next</button>
+        </div>
+
+
+        <div class="template-holder"></div>
+
+        <script class="person-template" type="text/x-handlebars-template">
+            <div class="person well">
+                <h4>Person info:</h4>
+                <p class="person__name"><span class="person__label">Name: </span>{{name}}</p>
+                <p class="person__country"><span class="person__label">Country: </span>{{country}}</p>
+            </div>
+        </script>
+    </section>
+
+
+    <script src="js/model.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
