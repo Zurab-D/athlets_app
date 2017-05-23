@@ -1,0 +1,31 @@
+[
+    {"name":"Titus Tindall"     , "medal":"g", "country":"amber"},
+    {"name":"Tyrell Toenjes"    , "medal":"b", "country":"amber"},
+    {"name":"Amanda Avant"      , "medal":"b", "country":"amber"},
+    {"name":"Mickey Mcfarlain"  , "medal":"s", "country":"amber"},
+    {"name":"Roseline Rothermel", "medal":"s", "country":"amber"},
+    {"name":"Kanisha Knop"      , "medal":"b", "country":"amber"},
+    {"name":"Dylan Dankert"     , "medal":"b", "country":"amber"},
+    {"name":"Takako Traverso"   , "medal":"g", "country":"amber"},
+    {"name":"Perry Parkerson"   , "medal":"s", "country":"amber"},
+
+    {"name":"Ethan Eisner"      , "medal":"b", "country":"shire"},
+    {"name":"Stefan Schartz"    , "medal":"b", "country":"shire"},
+    {"name":"Love Lail"         , "medal":"g", "country":"shire"},
+    {"name":"Linsey Lytch"      , "medal":"s", "country":"shire"},
+    {"name":"Trent Torrens"     , "medal":"b", "country":"shire"},
+    {"name":"Minda Maple"       , "medal":"g", "country":"shire"},
+    {"name":"Leandro Leleux"    , "medal":"g", "country":"shire"},
+
+    {"name":"Cary Cordray"      , "medal":"s", "country":"earthsea"},
+    {"name":"Moon Murrill"      , "medal":"b", "country":"earthsea"},
+    {"name":"Vance Verduzco"    , "medal":"g", "country":"earthsea"},
+    {"name":"Bernard Berner"    , "medal":"s", "country":"earthsea"},
+
+    {"name":"Randal Rispoli"    , "medal":"g", "country":"narnia"},
+    {"name":"Mercedez Monarrez" , "medal":"s", "country":"narnia"},
+    {"name":"Sol Spinella"      , "medal":"b", "country":"narnia"},
+    {"name":"Mireille Mullings" , "medal":"g", "country":"narnia"},
+    {"name":"Genesis Gainey"    , "medal":"s", "country":"narnia"},
+    {"name":"Annelle Ahlstrom"  , "medal":"b", "country":"narnia"}
+]
