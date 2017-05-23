@@ -1,0 +1,12 @@
+{
+  "name": "testVanillaApp",
+  "version": "0.0.0",
+  "description": "Test Vanilla App",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
