@@ -1,0 +1,26 @@
+#app {
+    padding: 10px;
+    min-width: 500px;
+    width: 30%;
+}
+
+.countries {
+    margin: 10px 10px 20px;
+    width: calc(100% - 10px - 10px);
+}
+
+.medals {
+    margin-bottom: 20px;
+}
+
+.medals .btn {
+    border: 3px solid transparent;
+}
+
+.medals .btn.active {
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,.5);
+}
+
+.pages {
+    margin-bottom: 20px;
+}
