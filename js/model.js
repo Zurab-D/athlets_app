@@ -1,6 +1,6 @@
 'use strict';
 
-var DATA_URL = '../data/data.json';
+var DATA_URL = '/data/data.json';
 
 /** Person ---------------------------------------------------- */
 class Person {
