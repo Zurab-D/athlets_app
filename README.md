@@ -1,5 +1,7 @@
 # Athlets App
 
+> Demo: https://zurab-d.github.io/athlets_app/
+
 ```eng```
 ## One-page application on VanillaJS / jQuery / Handlebars
 
